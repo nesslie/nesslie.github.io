@@ -1,0 +1,41 @@
+.home-main-section{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.home-main-section .img-wrapper{
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.home-main-section .my-face{
+    background-image: url(src/myface.png);
+    flex-grow: 1;
+    max-width: 10vh;
+    min-width: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.home-main-section .call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:1rem;
+    align-self: center;
+}
+
+@media (max-width:900px) {
+    .home-main-section .img-wrapper{
+        display: none;
+    }
+    .home-main-section{
+        justify-content: center;
+    }
+}
