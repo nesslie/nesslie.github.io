@@ -3,6 +3,8 @@
     align-items: stretch;
     justify-content: center;
     flex-grow: 1;
+    max-width: 70vw;
+    align-self: center;
 }
 
 .home-main-section .img-wrapper{
@@ -16,8 +18,8 @@
 .home-main-section .my-face{
     background-image: url(src/myface.png);
     flex-grow: 1;
-    max-width: 10vh;
-    min-width: 40vw;
+    max-width: 50vh;
+    min-width: 30vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center left;
@@ -27,11 +29,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin:1rem;
+    margin:8rem;
+    align-self: center;
+}
+
+.home-main-section .btn{
+    color:white;
+    font-weight: bold;
+    background-color: #2553F6;
+    padding: .75rem 1.5rem;
+    border-radius: 4rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: flex;
     align-self: center;
 }
 
 @media (max-width:900px) {
+    .home-main-section{
+        max-width: 95vw;
+        align-self: left;
+    }
     .home-main-section .img-wrapper{
         display: none;
     }
