@@ -5,6 +5,7 @@
     flex-grow: 1;
     max-width: 70vw;
     align-self: center;
+    text-decoration: none;
 }
 
 .home-main-section .img-wrapper{
