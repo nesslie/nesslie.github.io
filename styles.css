@@ -12,6 +12,7 @@ body{
     font-size: 1.2rem;
     color: #282937;
     min-height: 100vh;
+    text-decoration: none;
 }
 
 .full-height-grow{
@@ -27,7 +28,7 @@ body{
     text-decoration: none;
 }
 
-.main-nav ul {
+.main-nav ul, .footer-nav ul {
     display: flex;
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ body{
     justify-content: center;
 }
 
-.main-nav a {
+.main-nav a, .footer-nav a {
     color: #282937;
     font-family: 'Roboto';
     font-weight: bold;
@@ -45,28 +46,52 @@ body{
     padding: 5rem;
 }
 
-.main-nav img{
+.main-nav img, .footer-nav img{
     justify-self: center;
 }
 
-.main-nav a:hover{
+.main-nav a:hover .footer-nav a:hover{
     color: #ababb1;
 }
-.main-nav{
+.main-nav, .footer-nav{
     display: flex;
     justify-content:center;
     align-items:center;
-    
+    text-decoration: none;
 }
 .main-header{
     display: flex;
     justify-content:center;
     align-self: center;
     align-items:center;
-    height: 80px;
     width: 100vw;
     background-color: #ffffff;
     box-shadow: 0px 2px 30px 1px rgba(0, 0, 0, 0.30);
+    text-decoration: none;
+}
+.main-footer{
+    display: flex;
+    justify-content:center;
+    align-self: center;
+    align-items:center;
+    width: 100vw;
+    height: 80px;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.footer-nav{
+    display: flex;
+    justify-content:center;
+    align-self: center;
+    align-items:center;
+    width: 100vw;
+    height: 80px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.main-header{
+    height: 80px;
 }
 
 .container{
