@@ -13,6 +13,7 @@ body{
     color: #282937;
     min-height: 100vh;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 .full-height-grow{
